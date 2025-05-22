@@ -1,0 +1,474 @@
+vagrant ssh
+vagrant up
+ssh-keygen -t ed25519
+ls -l .ssh/
+sudo systemctl status sshd
+ssh keygen -t ed25519
+ssh-keygen -t ed25519
+y
+1s -1 .ssh/
+ls -l .ssh/
+status sshd
+sudo systemctl status sshd
+ssh-keygen -t ed25519
+cat .ssh/id_ed25519.pub
+cd clase4/
+ls -l
+cd clase4
+mkdir clase4
+cd clase4
+cat > texto1.txt
+ls -l
+cat texto1.txt
+ls -l
+cat << FIN > texto2.txt
+linea 4
+linea 5
+linea 6
+FIN
+
+ls -l
+cat *.txt
+cat texto1.txt >> texto2.txt
+cat texto2.txt
+cat << EOF >texto3.txt
+linea 7
+linea 8
+linea 9
+EOF
+
+cat texto1.txt texto3.txt >texto4.txt
+car texto4.txt
+cat texto4.txt
+ls -l
+grep texto1.txt 
+cat texto1.txt
+history
+history > mihistorial.txt
+ls -l
+cat mihistorial.txt
+cd ..
+tree
+sudo apt install tree
+sudo snap install tree
+cd clase4
+pwd
+touch texto5.txt
+ls -l
+mv textocp.txt txtpcp2.txt
+rm -r clase4/
+ls -l
+id
+pwd
+mkdir -p {clase1.clase2}/{teoria.practica}
+tree
+mkdir -p {compra1/vendedor{1..3},compra2/{vendedor{1..3},repositor}}
+tree
+cat /etc /passwd
+cat /etc/passwd
+sudo cat /etc/passwd
+sudo cat /etc/shadow
+sudo groupadd Alumnos
+tree
+aszx
+gteg
+raa
+group
+ggriavavacc
+ca
+a,.gr
+c..
+vagrant hat
+groupadd Alumno
+sudo groupadd Alumno
+sudo useradd -m -s /bin/bash -c "Alumno pepe" -G Alumnos pepe
+sudo useradd -m -s /bin/bash -c "Alumno Ulises" -G Alumnos pepe
+sudo useradd -m -s /bin/bash -c "Alumno ulises" -G Alumnos pepe
+passwd ulises 
+passwd pepe
+sudo passwd pepe
+sudo useradd -m -s /bin/bash -c "Ulises" -G Matias
+sudo useradd -m -s /bin/bash -c "Alumno ulises" -G Alumnos pepe
+exit
+groupadd Alumnos
+sudo groupdel nombre_del_grupo
+sudo groupdel Alumnos
+sudo groupdel Alumno
+groupadd Alumnos
+sudo groupadd Alumnos
+sudo useradd -m -s /bin/bash -c "Alumno ulises" -G Alumnos pepe
+sudo useradd -m -s /bin/bash -c "Alumno ulises" -G Alumnos 
+sudo useradd -m -s /bin/bash -c "Alumno ulises" -G Alumnos
+sudo passwd ulises
+exit
+mkdir clase5
+ls -l
+cd clase5/
+root
+ls -1
+ls -l
+l- +1
+ls +1
+ls -l
+echi hola > texto1.txt
+echo hola > texto1.txt
+ls -l
+chmod 666 texto1.txt
+ls -l
+chmod 764 texto1.txt
+ls -l
+texto 2.txt
+ch mod 644 texto2.txt
+chmod 644 texto2.txt
+cd ..
+ls -l
+chmod -R 777 clase5/
+ls -l
+cd clase5
+ls -l
+echo hola texto2.txt
+cd ..
+chmod -R 777 clase5/
+cd clase5
+ls -l
+chmod 700 texto1.txt
+ls -l
+echo hola > texto2.txt
+ls -l
+cd ..
+chmod -R 777 clase5/
+cd clase5
+ls -l
+chmod 700 texto1.txt
+chmod 610 texto1.txt
+ls -l
+chmod 601 texto1.txt
+ls -l
+chmod g+r texto1.txt
+ls -l
+echo mi primer script 
+echo Funciono ok
+cat << FIN > script1
+pwd
+ls -l
+echo Mi primer script
+echo Funciono ok
+FIN
+
+ls -l
+cat script1
+bash script1
+vim script1
+cat script2
+cat << FIN > script2
+Este es el script2
+FIN
+
+vim script2
+vim script2.sh
+ls -l
+cat script2
+cat script2.sh
+chmod 764 script2.sh
+ls -l
+./script2.sh
+ls -l
+chmod 666 script2.sh
+./script2.sh
+sudo ./script2.sh
+chmod 764 script2.sh
+cd ..
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub 
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub 
+vagrant halt
+halt
+cat $HOME/.ssh/*.pub 
+ls -la
+ls -la ssh/ 
+ls -la .ssh/
+cat .ssh/id_ed25519.pub
+pwd
+mkdir repogit
+cd repogit
+git clone git@github.com:Ulises-Mar/TP_AySO_114_Mari-o_Ulises.git
+ls -l
+cd TP_AySO_114_Mari-o_Ulises
+ls -l
+cat README.md
+cat /etc/os-release 
+man grep
+grep <parámetro> Home_url /etc/os-release > 
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+git status
+git add .
+git status
+git commit
+git config --global user.email "ulisesmar.utn@gmail.com"
+git config --global user.name "Ulises-Mar"
+git commit -m "subo el archivo datos_url"
+git status
+git push
+exit
+cd TP_AySO_114_Mari-o_Ulises
+directory
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_114_Mari-o_Ulises/
+ls -l
+cat /etc/os-release
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt
+git add datos_usuarios.txt
+cat datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git config --global user.email "ulisesmar.utn@gmail.com"
+git config --global user.name "Ulises-Mar"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+cat datos_usuario.txt
+git status
+git push
+git pull
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+ls
+rm datos_usuario.txt
+ls
+remove datos_usuarios.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git config --global user.email "tu-mail@ejemplo.com"
+git config --global user.email "ulises.utn@gmail.com"
+git config --global user.name "Ulises-Mar"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+cat datos_usuario.txt
+git add datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git pull
+git push
+git pull git pull origin main
+git config pull.rebase false
+git push
+git add .
+git commit -m "chore: guardando cambios locales antes del pull"
+git pull origin main
+ls
+cd repogit
+ls
+rm -rf TP_AySO_114_Mari-o_Ulises
+ls
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd ..
+remove repogit
+TT@DESKTOP-L9QL462 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to date...
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
+==> default: Machine 'default' has a post `vagrant up` message. This is a message
+==> default: from the creator of the Vagrantfile, and not from Vagrant itself:
+==> default:
+==> default:   ###########################################################################
+==> default:   #
+==> default:   # Para Ingresar a la VM puede usar cualquiera de las dos opciones:
+==> default:   #
+==> default:   ###########################################################################
+==> default:   # 1. (usar Vagrant)
+==> default:
+==> default:   vagrant ssh
+==> default:
+==> default:   # 2. Usar SSH indicando la key Privada
+==> default:   # Puede usar la private_key proporcionada por vagrant
+==> default:
+==> default:   ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.56.2
+==> default:
+TT@DESKTOP-L9QL462 MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant ssh
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-139-generic x86_64)
+Expanded Security Maintenance for Applications is not enabled.
+15 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+New release '24.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+Last login: Thu May 22 00:05:44 2025 from 10.0.2.2
+vagrant@VMPruebas:~$ ls
+README  carpeta_compartida  clase5  compra1  compra2  repogit  snap  {clase1.clase2}
+vagrant@VMPruebas:~$ cd repogit
+vagrant@VMPruebas:~/repogit$ ls
+TP_AySO_114_Mari-o_Ulises  UTN-FRA_SO_onBording
+vagrant@VMPruebas:~/repogit$
+vagrant@VMPruebas:~/repogit$ rm -rf TP_AySO_114_Mari-o_Ulises
+vagrant@VMPruebas:~/repogit$ ls
+UTN-FRA_SO_onBording
+vagrant@VMPruebas:~/repogit$ ssh-keygen -t ed25519
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_ed25519):
+/home/vagrant/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/vagrant/.ssh/id_ed25519
+Your public key has been saved in /home/vagrant/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:yASNlDmwkHxSPz3QFFWA4FlMnytMKJDixCom7XKq+G0 vagrant@VMPruebas
+The key's randomart image is:
++--[ED25519 256]--+
+|+o++oB*=+oo.     |
+|oB.oB.B+. .      |
+|=.+. B.+ o       |
+|+o. .o+.. .      |
+|+.    ooS.       |
+|. o     .        |
+| +               |
+|o  .E            |
+|+....            |
++----[SHA256]-----+
+vagrant@VMPruebas:~/repogit$
+vagrant@VMPruebas:~/repogit$ cat $HOME/.ssh/*.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGFZE2o4SS4oiEQAnUIsTS/z95BAzDPEVix7g4SYQfGD vagrant@VMPr
+uebas
+vagrant@VMPruebas:~/repogit$ cd ..
+vagrant@VMPruebas:~$ remove repogit
+Command 'remove' not found, did you mean:
+  command 'remote' from snap remote (1.09)
+See 'snap info <snapname>' for additional versions.
+vagrant@VMPruebas:~$
+
+cd ..
+fin
+salir
+cat $HOME/.ssh/*.pub
+cd         # Volver al home del usuario
+mkdir repogit
+cd
+rm -rf $HOME/repogit
+ls
+mkdir repogit
+cd repogit
+git clone git@github.com:Ulises-Mar/TP_ArquitecturaySO_114_Mari-o_Ulises-.git
+cd TP_ArquitecturaySO_114_Mari-o_Ulises-
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git config --global user.email "ulisesmar.utn@gmail.com"
+git config --global user.name "Ulises-Mar"
+it -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git config --global user.name "Ulises-Mar"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cdcd ..
+cd ..
+ccdcdcccccccc..dddddddddddddddddad..
+cd ..vagrant halt
+vagrant halt
+vvvvvaarvvvvvvvvvvvvvvvagrant halt
+ls
+cd repogit
+ls
+cd TP_ArquitecturaySO_114_Mari-o_Ulises-/
+ls
+cat README.md 
+cat <<EOF >> README.md
+Alumno: <Ulises Mariño>
+
+
+División: <114>
+
+
+Turno: <Mañana>
+
+EOF
+
+cat <<fin >> README.md
+Alumno: <Ulises Mariño>
+División: <114>
+Turno: <Mañana>
+fin
+
+cat readme.md
+cat README.md 
+cat <<fin > README.md 
+Alumno: <Ulises Mariño>
+División: <114>
+Turno: <Mañana>
+fin
+
+cat README.md 
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cat <<fin > README.md 
+Alumno: <Ulises Mariño>
+División: <114>
+Turno: <Mañana>
+fin
+
+ls
+mkdir -p ~/materia1/uni{1,2,3} ~/materia2/uni{1,2,3}
+echo '#!/bin/bash
+mkdir -p ~/materia1/uni{1,2,3} ~/materia2/uni{1,2,3}' > script_dir.sh
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
